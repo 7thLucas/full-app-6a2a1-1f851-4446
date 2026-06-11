@@ -1,0 +1,50 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-col-text { width: 55%; }
+.mode-portrait .sl-col-text { flex: 1; width: 100%; }
+.mode-landscape .sl-col-img { width: 45%; }
+.mode-portrait .sl-col-img { height: 38%; width: 100%; order: -1; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: editorial column -->
+    <div class="sl-col-text flex flex-col justify-between p-12">
+
+      <!-- Badge -->
+      <div>
+        <span class="inline-flex items-center bg-rose-50 text-rose-600 text-xs font-bold tracking-widest uppercase px-3 py-1.5 rounded-full border border-rose-200">
+          AI Companion App
+        </span>
+      </div>
+
+      <!-- Headline + tagline -->
+      <div>
+        <h1 class="text-5xl font-black text-slate-900 leading-tight mb-5">
+          Always There.<br/>
+          <span class="text-rose-500">Always Yours.</span>
+        </h1>
+        <p class="text-base text-slate-500 leading-relaxed max-w-xs">
+          Talk to a warm, empathetic AI girlfriend — available 24&thinsp;/&thinsp;7, always in your corner, and always ready to listen.
+        </p>
+      </div>
+
+      <!-- Attribution -->
+      <data-attribution />
+
+    </div>
+
+    <!-- Right: full-bleed image -->
+    <div class="sl-col-img relative overflow-hidden">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=intimate+warm+AI+companion+illustration+soft+rose+pink+glow+abstract+digital+art+emotional+connection+pastel"
+        class="w-full h-full object-cover"
+        alt=""
+      />
+      <!-- Subtle left-fade so image blends into the white column -->
+      <div class="absolute inset-y-0 left-0 w-16" style="background: linear-gradient(to right, #ffffff, transparent);"></div>
+    </div>
+
+  </div>
+</section>
