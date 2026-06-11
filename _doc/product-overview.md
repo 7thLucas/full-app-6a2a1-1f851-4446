@@ -1,7 +1,7 @@
 # Product Overview
 
 ## Product Name
-Aura
+Luna
 
 ## What It Is
 A conversational app where users talk with a personalized AI girlfriend. The experience centres on warm, natural dialogue — an always-available AI companion with a consistent persona, emotional attunement, and memory across sessions.
