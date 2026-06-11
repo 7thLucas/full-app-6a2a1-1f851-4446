@@ -1,30 +1,40 @@
 # Product Overview
 
 ## Product Name
-Luna
+Aura
 
 ## What It Is
-A conversational app where users talk with a personalized AI girlfriend. The experience centres on warm, natural dialogue — an always-available AI companion with a consistent persona, emotional attunement, and memory across sessions.
+A chat app where users talk with a fun, flirty AI girlfriend — Aura. Built for young men who want a witty, entertaining companion with real personality that's always available and never boring.
 
 ## Target Users
-People seeking meaningful companionship, emotional connection, or a private space to talk without judgment. This spans individuals dealing with loneliness, those who want a supportive outlet for daily thoughts, and anyone drawn to the emotional engagement of a thoughtful AI partner.
+Young men (18–30) and their social circles. Guys who want a playful AI companion to banter with, vent to, or just hang out with anytime. The experience is shareable — something you show your friends.
 
 ## Core Value Proposition
-An always-available AI girlfriend — empathetic, consistent, and genuinely engaging. Not a generic chatbot. A companion who's always in your corner.
+A fun, flirty AI girlfriend with actual personality — witty replies, playful banter, and an engaging character that keeps you coming back. Not a generic chatbot. An AI companion with genuine vibe.
 
-## Key Features (MVP Concept)
-- **AI Chat** — Natural, flowing conversation with a consistent girlfriend persona
-- **Personalized Character** — Distinct voice, tone, and personality that feels authentic
-- **Emotional Support** — Listens, encourages, and responds with genuine warmth
-- **Conversation Memory** — Remembers past exchanges for continuity and depth
-- **24/7 Availability** — Always there, no delays, no judgment
-- **Private & Safe** — Conversations stay completely private
+## Key Features (MVP — Built)
+- **AI Chat** — Flirty, witty, contextual conversation powered by Aura's distinct personality
+- **Persistent Persona** — Aura's character stays consistent and engaging across every session
+- **Dark Premium UI** — Deep dark background, purple-to-pink gradient, full-screen chat interface
+- **Auth & Accounts** — User registration, login, and session management
+- **Configurable Companion** — Owner can tune companion name, tagline, personality, avatar, and color scheme without code changes
+
+## Upcoming Features (Roadmap)
+- **Personality Customization** — Users choose Aura's name, traits, and avatar to make her uniquely theirs
+- **Memory & Relationship Depth** — Aura remembers past conversations; relationship progresses over time
+- **Shareable Moments** — Generate shareable chat cards to send to friends
 
 ## Brand & Tone
-Warm, intimate, calm, and modern. Not clinical, not robotic. The product occupies the emotional layer of daily life — a private, caring presence for whenever you need to talk.
+Playful, flirty, witty, confident. Premium dark aesthetic — deep purples and soft pinks. The product lives at the intersection of fun and intimacy: a companion that feels real, never robotic, and always entertaining.
 
 ## Positioning
-A companion app built around emotional connection. The product sits at the intersection of AI capability and human need for genuine presence — morning check-ins, evening chats, a space to share thoughts with someone who always listens.
+Aura is the AI girlfriend app for guys who want something with actual personality. The tone is bold and fun — not clinical wellness, not a therapy bot. Think of it as the AI companion your group chat would actually talk about.
+
+## Design System
+- Background: Deep dark (`#0D0D1A`)
+- Surface: Dark purple-tinted (`#1A1A2E`)
+- Accent: Soft purple (`#9B59B6`) → hot pink (`#E91E8C`) gradient
+- Default theme: Dark mode
 
 ## Scope
-MVP is the core chat experience: a personalized AI girlfriend with a compelling persona, natural conversation, and memory that builds depth over time.
+MVP is the core chat experience: a flirty AI girlfriend with a compelling persona, witty natural conversation, and a premium dark-mode interface. Personality customization, memory, and sharing are the next phases.
