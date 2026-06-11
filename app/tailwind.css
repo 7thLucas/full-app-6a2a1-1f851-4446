@@ -43,39 +43,39 @@
   }
 
   .dark {
-    --background: #171719;
+    --background: #0D0D1A;
     --foreground: #f4f4f5;
-    --card: #171719;
+    --card: #1A1A2E;
     --card-foreground: #f4f4f5;
-    --popover: #171719;
+    --popover: #1A1A2E;
     --popover-foreground: #f4f4f5;
-    --primary: #3b82f6;
+    --primary: #9B59B6;
     --primary-foreground: #ffffff;
-    --secondary: #27272a;
+    --secondary: #1A1A2E;
     --secondary-foreground: #f4f4f5;
-    --muted: #27272a;
-    --muted-foreground: #a1a1aa;
-    --accent: #27272a;
-    --accent-foreground: #f4f4f5;
+    --muted: #1A1A2E;
+    --muted-foreground: #9ca3af;
+    --accent: #E91E8C;
+    --accent-foreground: #ffffff;
     --destructive: #ef4444;
     --destructive-foreground: #fafafa;
-    --border: #3f3f47;
-    --input: #27272a;
-    --ring: #3b82f6;
-    --chart-1: #3b82f6;
-    --chart-2: #10b981;
+    --border: rgba(155, 89, 182, 0.2);
+    --input: rgba(255, 255, 255, 0.06);
+    --ring: #9B59B6;
+    --chart-1: #9B59B6;
+    --chart-2: #E91E8C;
     --chart-3: #f59e0b;
     --chart-4: #8b5cf6;
     --chart-5: #ec4899;
-    --navbar-background: #09090b;
-    --sidebar-background: #09090b;
+    --navbar-background: #1A1A2E;
+    --sidebar-background: #1A1A2E;
     --sidebar-foreground: #f4f4f5;
-    --sidebar-primary: #3b82f6;
+    --sidebar-primary: #9B59B6;
     --sidebar-primary-foreground: #ffffff;
-    --sidebar-accent: #171719;
+    --sidebar-accent: #0D0D1A;
     --sidebar-accent-foreground: #f4f4f5;
-    --sidebar-border: #3f3f46;
-    --sidebar-ring: #3b82f6;
+    --sidebar-border: rgba(155, 89, 182, 0.2);
+    --sidebar-ring: #9B59B6;
   }
 }
 
@@ -176,7 +176,7 @@
 }
 
 body {
-  background: #f2f2f7;
+  background: #0D0D1A;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 

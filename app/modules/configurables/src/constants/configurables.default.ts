@@ -16,31 +16,37 @@ export type TDefaultConfigurableData = {
   appName: string;
   logoUrl: string;
   brandColor: TBrandColor;
-  // Mirror new schema fields here. Example:
-  //   maxItemsPerPage?: number;
-  //   enableNotifications?: boolean;
-  //   featuredCategories?: string[];
+  companionName: string;
+  companionTagline?: string;
+  companionAvatarUrl?: string;
+  companionPersonality?: string;
+  welcomeMessage?: string;
+  chatPlaceholder?: string;
+  backgroundColor?: string;
+  surfaceColor?: string;
+  loginTagline?: string;
+  enableSoundEffects?: boolean;
+  maxMessagesPerSession?: number;
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "FILL_APP_NAME_HERE",
+  appName: "Aura",
   logoUrl: "FILL_LOGO_URL_HERE",
   brandColor: {
-    primary: "FILL_PRIMARY_COLOR_HERE",
-    secondary: "FILL_SECONDARY_COLOR_HERE",
-    accent: "FILL_ACCENT_COLOR_HERE",
+    primary: "#9B59B6",
+    secondary: "#E91E8C",
+    accent: "#C0392B",
   },
-  // ─────────────────────────────────────────────────────────────────────
-  // Add new field defaults here. See RULES.md §5 for per-type shape.
-  // Required branding fields → use the FILL_X_HERE placeholder pattern.
-  // Optional/typed defaults → real value with a "// fill it here" comment:
-  //
-  //   maxItemsPerPage: 12,                     // fill it here
-  //   enableNotifications: true,               // fill it here
-  //   featuredCategories: [],                  // fill it here
-  //   defaultLanguage: "en",                   // must match enum options
-  //   launchDate: "2025-01-01T00:00:00.000Z",  // ISO-8601
-  //   heroImage: "",                           // resolved URL after upload
-  //   galleryImages: [],                       // array of resolved URLs
-  // ─────────────────────────────────────────────────────────────────────
+  companionName: "Aura",
+  companionTagline: "Always here. Always yours.",
+  companionAvatarUrl: "", // fill it here
+  companionPersonality:
+    "Warm, flirty, playful, and confident. Witty banter with real depth. Always in your corner.",
+  welcomeMessage: "Hey, I've been thinking about you. What's on your mind?",
+  chatPlaceholder: "Say something...",
+  backgroundColor: "#0D0D1A",
+  surfaceColor: "#1A1A2E",
+  loginTagline: "Your AI girlfriend, always available.",
+  enableSoundEffects: false,
+  maxMessagesPerSession: 0, // fill it here — 0 means unlimited
 };
