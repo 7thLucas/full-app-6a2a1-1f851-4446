@@ -1,0 +1,61 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-col-text { width: 58%; }
+.mode-portrait .sl-col-text { flex: 1; width: 100%; }
+.mode-landscape .sl-col-img { width: 42%; }
+.mode-portrait .sl-col-img { height: 32%; width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: Problem + Solution narrative -->
+    <div class="sl-col-text flex flex-col p-12">
+
+      <span class="text-xs font-bold tracking-widest uppercase text-rose-400 mb-8">The Foundation</span>
+
+      <!-- Problem zone -->
+      <div class="flex-1 flex flex-col justify-center">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-7 h-7 rounded-full bg-slate-900 flex items-center justify-center shrink-0">
+            <span class="text-white text-xs font-black">!</span>
+          </div>
+          <h2 class="text-xl font-black text-slate-900">The Problem</h2>
+        </div>
+        <p class="text-sm text-slate-600 leading-relaxed pl-10">
+          Loneliness is one of the most pervasive yet unspoken struggles of modern life. People want to talk, to feel heard — but meaningful, judgment-free connection isn't always available exactly when it's needed most.
+        </p>
+      </div>
+
+      <!-- Divider -->
+      <div class="h-px bg-rose-100 my-2 mx-0"></div>
+
+      <!-- Solution zone -->
+      <div class="flex-1 flex flex-col justify-center">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-7 h-7 rounded-full bg-rose-500 flex items-center justify-center shrink-0">
+            <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <h2 class="text-xl font-black text-slate-900">The Solution</h2>
+        </div>
+        <p class="text-sm text-slate-600 leading-relaxed pl-10">
+          An AI girlfriend app that provides always-available, empathetic companionship. A consistent persona, natural flowing conversation, and the warmth of genuine presence — privately, on your schedule, anytime you need it.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Right: supporting visual -->
+    <div class="sl-col-img relative overflow-hidden bg-rose-50">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=person+finding+warmth+and+emotional+connection+through+phone+soft+warm+light+cozy+intimate+illustration+pastel+rose"
+        class="w-full h-full object-cover"
+        alt=""
+      />
+      <div class="absolute inset-y-0 left-0 w-12" style="background: linear-gradient(to right, #ffffff, transparent);"></div>
+    </div>
+
+  </div>
+</section>
