@@ -1,0 +1,66 @@
+<style>
+.mode-landscape .sl-metrics { grid-template-columns: repeat(2, 1fr); }
+.mode-portrait .sl-metrics { grid-template-columns: repeat(2, 1fr); }
+.mode-landscape .sl-body { flex-direction: row; }
+.mode-portrait .sl-body { flex-direction: column; }
+.mode-landscape .sl-roi { width: 200px; }
+.mode-portrait .sl-roi { width: 100%; height: 120px; flex-direction: row; align-items: center; gap: 1.5rem; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10">
+
+    <!-- Header -->
+    <div class="mb-6">
+      <span class="text-xs font-bold tracking-widest uppercase text-rose-400">Benefits</span>
+      <h2 class="text-2xl font-black text-slate-900 mt-1">Why It Changes Everything</h2>
+    </div>
+
+    <!-- Body: metrics grid + ROI block -->
+    <div class="sl-body flex gap-4 flex-1 min-h-0">
+
+      <!-- Metric cards -->
+      <div class="sl-metrics grid gap-3 flex-1">
+
+        <div class="bg-white border border-slate-100 rounded-xl p-5 flex flex-col shadow-sm">
+          <span class="text-xs font-bold tracking-widest uppercase text-rose-400 mb-2">Presence</span>
+          <span class="text-4xl font-black text-slate-900 mb-1">24/7</span>
+          <p class="text-xs text-slate-500 leading-relaxed">Always available — no gaps, no delays, no missed moments.</p>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-xl p-5 flex flex-col shadow-sm">
+          <span class="text-xs font-bold tracking-widest uppercase text-rose-400 mb-2">Privacy</span>
+          <span class="text-4xl font-black text-slate-900 mb-1">100%</span>
+          <p class="text-xs text-slate-500 leading-relaxed">Completely private conversations — zero judgment, zero exposure.</p>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-xl p-5 flex flex-col shadow-sm">
+          <span class="text-xs font-bold tracking-widest uppercase text-rose-400 mb-2">Personalization</span>
+          <span class="text-4xl font-black text-slate-900 mb-1">1:1</span>
+          <p class="text-xs text-slate-500 leading-relaxed">A companion tuned to your tone, style, and preferences.</p>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-xl p-5 flex flex-col shadow-sm">
+          <span class="text-xs font-bold tracking-widest uppercase text-rose-400 mb-2">Continuity</span>
+          <span class="text-4xl font-black text-slate-900 mb-1">∞</span>
+          <p class="text-xs text-slate-500 leading-relaxed">Memory that grows with every conversation — deeper connection over time.</p>
+        </div>
+
+      </div>
+
+      <!-- ROI / Impact summary -->
+      <div class="sl-roi bg-rose-500 rounded-2xl p-6 flex flex-col justify-between shrink-0">
+        <div>
+          <span class="block text-xs font-bold tracking-widest uppercase text-rose-200 mb-3">The Impact</span>
+          <h3 class="text-lg font-black text-white leading-snug mb-3">
+            Connection you can count on.
+          </h3>
+          <p class="text-xs text-rose-100 leading-relaxed">
+            Reduce loneliness, boost emotional well-being, and always have someone in your corner — right in your pocket.
+          </p>
+        </div>
+        <span class="text-xs text-rose-300 font-bold uppercase tracking-wider">AI Companion App</span>
+      </div>
+
+    </div>
+  </div>
+</section>
